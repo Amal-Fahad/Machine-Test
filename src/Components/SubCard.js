@@ -6,7 +6,10 @@ const SubCard = (props) => {
       {props.data.map((item) => (
         <div className="card" key={item.id}>
           <div className="image">
-            <img src={`/images/${item.image}`} alt="Profile" />
+            <img
+              src={`${process.env.PUBLIC_URL}/images/${item.image}`}
+              alt="Profile"
+            />
           </div>
 
           <div className="card-body">
@@ -18,7 +21,7 @@ const SubCard = (props) => {
             {item.stroke && (
               <span className="stroke">
                 {item.stroke}
-                <img src="/images/Stroke 1.png" alt="" />
+                <img src={`${process.env.PUBLIC_URL}/images/Stroke 1.png`} alt="img" />
               </span>
             )}
             <span>+</span>

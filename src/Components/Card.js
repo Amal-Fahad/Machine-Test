@@ -10,13 +10,13 @@ const Card = (props) => {
               {item.place && (
                 <div className="logo">
                   <div className="logo-image">
-                    <img src={`/images/${item.logo}`} alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/images/${item.logo}`} alt="logo" />
                   </div>
                   <p>{item.place}</p>
                 </div>
               )}
               <div className="image">
-                <img src={`/images/${item.image}`} alt="Profile" />
+                <img src={`${process.env.PUBLIC_URL}/images/${item.image}`} alt="Profile" />
               </div>
 
               <div className="card-body">
@@ -26,7 +26,7 @@ const Card = (props) => {
                 {item.retaillogo && (
                   <>
                     <button className="btn-retail">
-                      <img src={`/images/Vector.png`} alt="logo" />
+                      <img src={`${process.env.PUBLIC_URL}/images/Vector.png`} alt="logo" />
                       Retail
                     </button>
                   </>
@@ -36,7 +36,7 @@ const Card = (props) => {
                 {item.stroke && (
                   <span className="stroke">
                     {item.stroke}
-                    <img src="/images/Stroke 1.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/images/Stroke 1.png`} alt="img" />
                   </span>
                 )}
                 <span>+</span>

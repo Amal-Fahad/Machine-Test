@@ -13,28 +13,28 @@ const SideBar = ({ menu, setMenu }) => {
           </div>
           <ul>
             <li>
-              <img src="\images\Category.png" alt="" />
+              <img src={`${process.env.PUBLIC_URL}/images/Category.png`}  alt="logologo" />
             </li>
             <li>
-              <img src="/images/1.png" alt="" />
+              <img src={`${process.env.PUBLIC_URL}/images/1.png`} alt="logo" />
             </li>
             <li>
-              <img src="\images\Group 763754.png" alt="" />
+              <img src={`${process.env.PUBLIC_URL}/images/Group 763754.png`}  alt="logo" />
             </li>
             <li className="active">
-              <img src="\images\Group 763755.png" alt="" />
+              <img src={`${process.env.PUBLIC_URL}/images/Group 763755.png`} alt="logo" />
             </li>
             <li>
-              <img src="\images\building-line.png" alt="" />
+              <img src={`${process.env.PUBLIC_URL}/images/building-line.png`} alt="logo" />
             </li>
           </ul>
 
           <div className="bell-icon">
             <div className="icon-img">
-              <img src="\images\Notification.png" alt="img" />
+              <img src={`${process.env.PUBLIC_URL}/images/Notification.png`} alt="logo" />
             </div>
             <div className="profile-img">
-              <img src="\images\Mask group.png" alt="" />
+              <img src={`${process.env.PUBLIC_URL}/images/Mask group.png`} alt="logo" />
             </div>
           </div>
         </div>
