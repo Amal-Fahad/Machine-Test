@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "name": "Seth Williams",
+    "post": "Managing director",
+    "image": "image 77.png",
+    "children": [
+      {
+        "id": 3,
+        "name": "Ramon Harris",
+        "post": "Regional Director",
+        "place": "Brazil",
+        "logo": "image 260.png",
+        "image": "unsplash_nHIb0s-BZMA.png",
+        "children": [
+          {
+            "id": 4,
+            "name": "Janet Parks",
+            "post": "CEO",
+            "image": "image 100.png",
+            "retaillogo":"Vector.png",
+            "stroke": 11
+          },
+          {
+            "id": 5,
+            "name": "Isabelle Kaif",
+            "post": "CFO",
+            "image": "image 78.png",
+            "retaillogo":"Vector.png"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Dan Morgan",
+        "post": "Regional Director",
+        "place": "USA",
+        "logo": "image 262.png",
+        "image": "image 79.png",
+        "children": [
+          {
+            "id": 7,
+            "name": "Ivan Toney",
+            "post": "CEO",
+            "image": "image 103.png",
+            "retaillogo":"Vector.png",
+            "stroke": 2,
+            "children": [
+              {
+                "id": 8,
+                "name": "Brian Walkery",
+                "image": "image 81-1.png"
+              },
+              {
+                "id": 9,
+                "name": "Vera Martinez",
+                "image": "image 99-1.png"
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Sabrina Francis",
+            "post": "CFO",
+            "image": "image 102.png",
+            "retaillogo":"Vector.png"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Stella Nelson",
+        "post": "Regional Director",
+        "place": "Italy",
+        "logo": "image 263.png",
+        "image": "image 99.png",
+        "children": [
+          {
+            "id": 12,
+            "name": "Miles Clark",
+            "post": "Chief Administrator",
+            "image": "image 81.png",
+            "retaillogo":"Vector.png",
+            "stroke": 11
+          },
+          {
+            "id": 13,
+            "name": "Angela Howard",
+            "post": "Chief Administrator",
+            "image": "image 101.png",
+            "retaillogo":"Vector.png",
+            "stroke": 2
+          }
+        ]
+      }
+    ],
+    "subchildren": [
+      {
+        "id": 2,
+        "name": "Dave Cooper",
+        "post": "Regional Director",
+        "image": "image 79-1.png"
+      }
+    ]
+  }
+]
